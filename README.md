@@ -11,7 +11,7 @@ git clone https://github.com/mxiong11/gray-scott-sim.git
 
 Make sure you have Git installed. If not, please visit [Git official website](https://git-scm.com/) to install it.
 
-## 环境要求
+## Environmental requirements
 
 - Visual Studio 2019 or higher
 - C++ development environment
