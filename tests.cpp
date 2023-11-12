@@ -16,3 +16,14 @@ TEST(ModelParametersTest, TypeMatch) {
 }
 
 
+TEST(VariableTest, SizeCompare) {
+    EXPECT_EQ(u.size(), width);
+    EXPECT_EQ(u[0].size(), height);
+    EXPECT_EQ(v.size(), width);
+    EXPECT_EQ(v[0].size(), height);
+
+    std::cout << "Width of u: " << u.size() << std::endl;
+    std::cout << "Height of u: " << u[0].size() << std::endl;
+    std::cout << "Width of v: " << v.size() << std::endl;
+    std::cout << "Height of v: " << v[0].size() << std::endl;
+}
