@@ -1,0 +1,10 @@
+^C:\USERS\13928\DESKTOP\PROFESSIONAL SKILLS\GRAY-SCOTT-SIM\BUILD\CMAKEFILES\51634AD60E7CDA26F2A8EDAFC20FA079\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/13928/Desktop/Professional Skills/gray-scott-sim" "-BC:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/GrayScottSim.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

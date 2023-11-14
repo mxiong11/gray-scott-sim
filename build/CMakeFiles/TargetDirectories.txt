@@ -1,0 +1,15 @@
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/CMakeFiles/GrayScottApp.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/CMakeFiles/GrayScottTests.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/CMakeFiles/INSTALL.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/CMakeFiles/INSTALL.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/CMakeFiles/ALL_BUILD.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googlemock/CMakeFiles/gmock.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googletest/CMakeFiles/gtest.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googletest/CMakeFiles/gtest_main.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googletest/CMakeFiles/INSTALL.dir
+C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googletest/CMakeFiles/ALL_BUILD.dir

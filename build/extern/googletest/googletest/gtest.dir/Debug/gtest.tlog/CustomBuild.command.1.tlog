@@ -1,0 +1,10 @@
+^C:\USERS\13928\DESKTOP\PROFESSIONAL SKILLS\GRAY-SCOTT-SIM\EXTERN\GOOGLETEST\GOOGLETEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/13928/Desktop/Professional Skills/gray-scott-sim" "-BC:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build" --check-stamp-file "C:/Users/13928/Desktop/Professional Skills/gray-scott-sim/build/extern/googletest/googletest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
