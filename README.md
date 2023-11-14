@@ -6,7 +6,7 @@ This project is a simulation program based on the Gray-Scott model for studying 
 
 To clone this repository, run the following command in the terminal:
 
-git clone https://github.com/mxiong11/gray-scott-sim.git
+git clone --recurse-submodules https://github.com/mxiong11/gray-scott-sim.git
 
 
 Make sure you have Git installed. If not, please visit [Git official website](https://git-scm.com/) to install it.
