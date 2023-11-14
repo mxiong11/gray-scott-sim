@@ -16,6 +16,7 @@ TEST(ModelParametersTest, TypeMatch) {
 }
 
 
+
 TEST(VariableTest, SizeCompare) {
     EXPECT_EQ(u.size(), width);
     EXPECT_EQ(u[0].size(), height);
