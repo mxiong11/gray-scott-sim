@@ -1,32 +1,46 @@
-# Gray-Scott model simulation
+# Gray-Scott Simulation Project
 
-This project is a simulation program based on the Gray-Scott model for studying pattern formation.
+## Introduction
+This project implements a simulation of the Gray-Scott reaction-diffusion system. It is designed to demonstrate the use of various software engineering practices including unit testing, continuous integration, and proper documentation.
 
-## Clone repository
+## Getting Started
 
-To clone this repository, run the following command in the terminal:
+### Prerequisites
+Before building the project, ensure you have the following installed:
+- C++ compiler (e.g., GCC, Clang, MSVC)
+- CMake (version 3.x or higher)
+- Visual Studio (for Windows users)
+
+### Cloning the Repository
+To clone the repository and its submodules, run the following command:
 
 git clone --recurse-submodules https://github.com/mxiong11/gray-scott-sim.git
 
+### Building the Project
+To build the project, follow these steps:
 
-Make sure you have Git installed. If not, please visit [Git official website](https://git-scm.com/) to install it.
-
-## Environmental requirements
-
-- Visual Studio 2019 or higher
-- C++ development environment
-
-## Build and run the program
-
+#### On Windows (using Visual Studio):
 1. Open Visual Studio.
-2. Select File > Open > Project/Solution and select the `.sln` file in the cloned project directory.
-3. In Solution Explorer, right-click the solution and select Rebuild Solution.
-4. After the build is complete, run the program by clicking "Debug" > "Start Without Debugging".
+2. Select `File -> Open -> CMake...` and navigate to the cloned repository.
+3. Visual Studio will automatically configure the project with CMake.
+4. To build the project, right-click on the CMakeLists.txt in the Solution Explorer and select 'Build'.
 
-## Run tests
+#### On Linux/MacOS (using terminal):
+1. Navigate to the project directory.
+2. Create a build directory and navigate into it:
+mkdir build && cd build
+3. Run CMake and build the project:
+cmake .. && make
 
-1. In Solution Explorer, find the test project.
-2. Right-click the test project and select "Run Tests".
 
+### Running the Simulation
+After building, you can run the simulation program:
+- On Windows, the executable will be in the `build/Debug` or `build/Release` directory.
+- On Linux/MacOS, the executable will be in the `build` directory.
+
+### Running Tests
+To run the unit tests, follow these steps:
+- On Windows, tests can be run directly from Visual Studio using the Test Explorer.
+- On Linux/MacOS, after building, execute the test binary in the `build` directory.
 
 
