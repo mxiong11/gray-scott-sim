@@ -1,3 +1,13 @@
+#First, we set the minimum version requirements of CMake, project name and C++ standard. This guarantees code modernity and cross-platform compatibility. 
+
+#Then for the MSVC compiler, we also specially configured the runtime library options to ensure the best performance and compatibility in the Windows environment. 
+#At the same time, set the runtime library options of the gtest library to be the same as your project.
+
+#Next, two build targets are defined, the main application GrayScottApp and the test program GrayScottTests. 
+#This setup allows us to build and manage the application and test code separately.
+
+#Finally by adding googletest as a subdirectory and linking to the test project.
+
 cmake_minimum_required(VERSION 3.14)  # 设置CMake的最低版本要求
 project(GrayScottSim)  # 设置你的项目名称
 
