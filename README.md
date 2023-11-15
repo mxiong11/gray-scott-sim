@@ -76,14 +76,17 @@ Inspect Output Information: Examine the printed type information to ensure it al
 
 #### TEST 0.2
 **_Variables u and v Size Check_**
-This test code, labeled TEST(VariableTest, SizeCompare), is designed to check whether the sizes of the variables u and v match the expected width and height. 
+
+This test (VariableTest, SizeCompare) is designed to check whether the sizes of the variables u and v match the expected width and height. 
 Use EXPECT_EQ assertions to check if the size of u and v matches the expected width and height.
 
 **_Purpose of the Test_**
+
 Use EXPECT_EQ assertions to ensure that the sizes of the variables u and v match the expected width and height.
 Utilize std::cout to print the width and height information of variables u and v, providing feedback on their actual sizes during testing.
 
 **_How to Use_**
+
 Run this test to verify whether the sizes of u and v, as defined in the code, match the expected width and height. The output information will offer insights into the actual sizes of these variables.
 
 #### TEST 0.3
