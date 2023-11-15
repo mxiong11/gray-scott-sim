@@ -71,7 +71,7 @@ Type Information Output: Utilize std::cout to print type information for model p
 
 **_How to Use_**
 
-Check Type Matching: Run this test to verify whether the types of model parameters match correctly. A successful test indicates proper type matching; otherwise, further investigation and code adjustments may be needed.
+Run this test to verify whether the types of model parameters match correctly. A successful test indicates proper type matching; otherwise, further investigation and code adjustments may be needed.
 Inspect Output Information: Examine the printed type information to ensure it aligns with expectations. This can aid in debugging or validating the use of the correct data types.
 
 #### TEST 0.2
