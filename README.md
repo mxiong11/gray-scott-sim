@@ -58,7 +58,26 @@ To run the unit tests, follow these steps:
 - On Windows, tests can be run directly from Visual Studio using the Test Explorer.
 - On Linux/MacOS, after building, execute the test binary in the `build` directory.
 
-**_TEST 0.3_** 
+#### TEST 0.1
+ **_Model Parameters Type Matching Check_**
+ 
+The test case (ModelParametersTest class with TypeMatch) aims to ensure that the types of model parameters match the element types of vectors u and v. 
+EXPECT_EQ is used to check if the types of F and k matches the type of u[0][0].
+
+**_Purpose of the Test_**
+
+Type Matching Check: Use EXPECT_EQ assertions to ensure that the types of model parameters F and k match the element type of vector u.
+Type Information Output: Utilize std::cout to print type information for model parameters F, k, and u[0][0] to facilitate inspection during test execution.
+
+**_How to Use_**
+
+Check Type Matching: Run this test to verify whether the types of model parameters match correctly. A successful test indicates proper type matching; otherwise, further investigation and code adjustments may be needed.
+Inspect Output Information: Examine the printed type information to ensure it aligns with expectations. This can aid in debugging or validating the use of the correct data types.
+
+#### TEST 0.2
+
+
+#### TEST 0.3
 
 In accordance with the requirements of Test (0.3) in the coursework, firstly, all elements of 'u' and 'v' are initialised to 0 at the start of the test, and 'F' and 'k' are set to 0 to check that the simulation produces a mathematically correct answer. 
 
