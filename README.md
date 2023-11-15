@@ -90,6 +90,7 @@ Utilize std::cout to print the width and height information of variables u and v
 Run this test to verify whether the sizes of u and v, as defined in the code, match the expected width and height. The output information will offer insights into the actual sizes of these variables.
 
 #### TEST 0.3
+**_Simulation Producing Mathematically Correct Answer Check_**
 
 In accordance with the requirements of Test (0.3) in the coursework, firstly, all elements of 'u' and 'v' are initialised to 0 at the start of the test, and 'F' and 'k' are set to 0 to check that the simulation produces a mathematically correct answer. 
 
@@ -97,3 +98,10 @@ After that, 'ASSERT_EQ' is used to assert that all elements of the u and v matri
 
 Finally, 'ASSERT_EQ' is used to assert that proportionAboveThreshold is equal to zero, further validating whether the system correctly simulates under zero initial conditions.
 
+**_Purpose of the Test_**
+
+This test ensures that the simulation behaves correctly under the specified zero initial conditions, validating the reliability of the simulation logic.
+
+**_How to Use_**
+
+Execute this test to confirm that the simulation produces the expected results when starting with zero initial conditions.
