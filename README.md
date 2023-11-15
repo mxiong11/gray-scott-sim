@@ -17,11 +17,7 @@ To clone the repository and its submodules, run the following command:
 
 git clone --recurse-submodules https://github.com/mxiong11/gray-scott-sim.git
 
-**_Git Commands_**
-
-Use the Git command to clone the GitHub repository to your local machine. 
-
-`git clone <repositoryURL>`
+### Git Commands
 
 Create a new branch, add all changes to that branch, commit the changes, and finally push the branch to the remote repository for sharing and collaboration with others.
 ```
@@ -46,7 +42,6 @@ To build the project, follow these steps:
 mkdir build && cd build
 3. Run CMake and build the project:
 cmake .. && make
-
 
 ### Running the Simulation
 After building, you can run the simulation program:
@@ -105,3 +100,12 @@ This test ensures that the simulation behaves correctly under the specified zero
 **_How to Use_**
 
 Execute this test to confirm that the simulation produces the expected results when starting with zero initial conditions.
+
+### Continuous Integration (CI)
+Setting up Continuous Integration (CI) on GitHub can be achieved using GitHub Actions:
+1. create a new repository on GitHub or use an existing repository.
+2. Within the repository, create a folder named .github/workflows, and inside that folder, create a YAML file, such as .github/workflows/ci.yml.
+3. In the YAML file, you can define the workflow.
+4. Push the modified code and workflow file to the GitHub repository.
+
+In the "Actions" tab on the GitHub repository page, you can view the status and log output of the workflow run.
