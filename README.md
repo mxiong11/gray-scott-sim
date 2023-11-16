@@ -28,5 +28,18 @@ Make sure you have Git installed. If not, please visit [Git official website](ht
 1. In Solution Explorer, find the test project.
 2. Right-click the test project and select "Run Tests".
 
+#### TEST 0.2
+**_Variables u and v Size Check_**
 
+This test (VariableTest, SizeCompare) is designed to check whether the sizes of the variables u and v match the expected width and height. 
+Use EXPECT_EQ assertions to check if the size of u and v matches the expected width and height.
+
+**_Purpose of the Test_**
+
+Use EXPECT_EQ assertions to ensure that the sizes of the variables u and v match the expected width and height.
+Utilize std::cout to print the width and height information of variables u and v, providing feedback on their actual sizes during testing.
+
+**_How to Use_**
+
+Run this test to verify whether the sizes of u and v, as defined in the code, match the expected width and height. The output information will offer insights into the actual sizes of these variables.
 
