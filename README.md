@@ -28,6 +28,22 @@ Make sure you have Git installed. If not, please visit [Git official website](ht
 1. In Solution Explorer, find the test project.
 2. Right-click the test project and select "Run Tests".
 
+#### TEST 0.1
+ **_Model Parameters Type Matching Check_**
+ 
+The test case (ModelParametersTest class with TypeMatch) aims to ensure that the types of model parameters match the element types of vectors u and v. 
+EXPECT_EQ is used to check if the types of F and k matches the type of u[0][0].
+
+**_Purpose of the Test_**
+
+Type Matching Check: Use EXPECT_EQ assertions to ensure that the types of model parameters F and k match the element type of vector u.
+Type Information Output: Utilize std::cout to print type information for model parameters F, k, and u[0][0] to facilitate inspection during test execution.
+
+**_How to Use_**
+
+Run this test to verify whether the types of model parameters match correctly. A successful test indicates proper type matching; otherwise, further investigation and code adjustments may be needed.
+Inspect Output Information: Examine the printed type information to ensure it aligns with expectations. This can aid in debugging or validating the use of the correct data types.
+
 #### TEST 0.2
 **_Variables u and v Size Check_**
 
